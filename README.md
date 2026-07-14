@@ -26,6 +26,15 @@ Gestures we used:
 
 We picked single-finger gestures because they were the easiest for MediaPipe to detect reliably — anything more complex started giving false positives during testing.
 
+## Features
+
+- Real-time hand gesture detection using MediaPipe.
+- Controls home appliances without physical contact.
+- Raspberry Pi Zero 2W with Pi Camera integration.
+- Relay-based switching for bulb and fan.
+- Live camera preview with detected action display.
+- Lightweight Python implementation using OpenCV and cvzone.
+
 ## Hardware
 
 - Raspberry Pi Zero 2W
