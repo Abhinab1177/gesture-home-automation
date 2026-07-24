@@ -87,20 +87,39 @@ If we did this again we'd probably look at lowering the camera resolution furthe
 
 A gesture-based system like this doesn't need the user to read anything or speak a specific language, which makes it usable for people with speech or motor difficulties. The whole build came in under ₹3000, so it's realistic for people who can't afford commercial smart home kits. Everything is processed locally on the Pi too, so no hand images or video ever leave the device.
 
-## Photos
+## Project Images
 
-### Hardware Setup
+### Hardware Prototype
 
-![Hardware Setup](images/hardware_setup.png)
+The complete hardware prototype built using a Raspberry Pi Zero 2W, Pi Camera, relay module, breadboard, and connected appliances.
 
-### Bulb Control using Index Finger
+<p align="center">
+  <img src="images/prototype_hardware.jpg" alt="Hardware Prototype" width="700">
+</p>
 
-![Bulb ON](images/bulb_on.png)
+### Hardware Wiring
 
-### Fan Control using Ring Finger
+Circuit setup showing the Raspberry Pi, relay module, and wiring used for appliance control.
 
-![Fan ON](images/fan_on.png)
+<p align="center">
+  <img src="images/hardware_setup.png" alt="Hardware Wiring" width="700">
+</p>
 
+### Gesture Detection
+
+Real-time gesture recognition used to control home appliances through predefined hand gestures.
+
+| Bulb Control | Fan Control |
+|--------------|-------------|
+| <img src="images/bulb_on.png" width="350"> | <img src="images/fan_on.png" width="350"> |
+
+### Project Demonstration
+
+Prototype demonstrated during the final project presentation.
+
+<p align="center">
+  <img src="images/project_showcase.png" alt="Project Showcase" width="450">
+</p>
 ## Project Presentation
 
 The presentation used for this project is available in the `docs` folder.
